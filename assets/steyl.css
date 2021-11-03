@@ -33,9 +33,24 @@ a{
     margin: 0px 10px !important;
 }
 
-/*.main{
-    background-image: url(/img/poto_1.png) !important;
-    background-repeat: no-repeat !important;
-    background-size: cover !important;
-    height: 100vh;
-}/*/
+
+.main_title{
+    margin-top: 400px;
+}
+
+.main_link{
+    display: flex;
+}
+
+.card-link{
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.144);
+    padding: 7px 15px;
+    border-radius: 3px;
+    font-weight: bold;
+    transition: .3s;
+}
+
+.card-link:hover{
+    transform: scale(1.1);
+}
